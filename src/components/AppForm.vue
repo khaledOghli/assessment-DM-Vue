@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { reactive, computed } from "vue";
 import AppFormInput from './AppFormInput.vue';
 import AppFormSelect from './AppFormSelect.vue';

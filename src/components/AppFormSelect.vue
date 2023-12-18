@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 // TODO: Define props expected from the parent component
 // const props = ??? 
 // The following props are expected from the parent:

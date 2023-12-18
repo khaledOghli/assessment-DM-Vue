@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 // TODO: Define props that will be received from the parent component
 // const props = ???? 
 
