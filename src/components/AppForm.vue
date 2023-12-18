@@ -33,8 +33,8 @@ const submitForm = () => {
 </script>
 
 <template>
-  <div class="bg-gray-900 p-8 rounded-md shadow-lg w-96">
-    <h2 class="text-2xl font-semibold mb-4">User Registration</h2>
+  <div class="bg-gray-700 p-8 rounded-md shadow-lg w-[30rem]">
+    <h2 class="text-2xl font-semibold mb-4 text-gray-200">User Registration</h2>
     <form @submit.prevent="submitForm">
       <div class="mb-4">
         <app-form-input type="text" label="Full Name" input-id="name" v-model="formApp.name" />
@@ -56,7 +56,7 @@ const submitForm = () => {
       </div>
 
       <!-- TODO: Edit button to match the required result -->
-      <button type="submit" class="w-full bg-blue-500 text-white px-4 py-2 rounded-md">
+      <button type="submit" class="w-full bg-blue-500 text-white px-4 py-2 rounded-md mt-10">
         Submit
       </button>
     </form>
