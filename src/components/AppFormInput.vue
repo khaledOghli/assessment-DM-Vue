@@ -17,7 +17,7 @@ const emit = defineEmits();
   <div>
     <!-- Label for the input -->
     <label class="block text-sm font-medium">
-      <!-- TODO:Use the label prop to dynamically set the label -->
+      <!-- TODO:Use the label prop to dynamically set the label from parent -->
     </label>
 
     <!-- 
