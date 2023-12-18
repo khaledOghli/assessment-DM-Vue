@@ -6,12 +6,14 @@ const guestAvatar = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAA
 </script>
 <template>
   <header>
-    <div class="avatar">
-      <img :src="isGuest ? guestAvatar : userAvatar" alt="avatar" />
+    <div class="container mx-auto flex items-center">
+      <div class="avatar">
+        <img :src="isGuest ? guestAvatar : userAvatar" alt="avatar" />
+      </div>
+      <h1 class="text-gray-100 font-bold">
+        {{ isGuest ? 'Guest' : 'User' }}
+      </h1>
     </div>
-    <h1>
-      {{ isGuest ? 'Guest' : 'User' }}
-    </h1>
   </header>
 </template>
 
@@ -23,10 +25,6 @@ header {
   position: fixed;
   width: 100%;
   height: 60px;
-  display: flex;
-  align-items: center;
-  color: #fff;
-  font-weight: bold;
 }
 
 .avatar {
